@@ -1,13 +1,7 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
- 
-namespace fibonaci
+public class FibonacciExample
 {
-    class Program
-    {
-        static void Main(string[] args)
+   public static void Main(string[] args)
         {
             int i, count, f1 = 0, f2 = 1, f3 = 0;
             Console.Write("Enter the Limit : ");
@@ -25,4 +19,4 @@ namespace fibonaci
  
         }
     }
-}
+
