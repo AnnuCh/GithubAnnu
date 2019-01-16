@@ -1,22 +1,19 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-namespace ContainsAnyThingy
-{
-    class Program
+
+
+    public class Program
     {
-        static void Main(string[] args)
+      public  static void Main(string[] args)
         {
             string testValue = "123345789";
 
             //will print true
-            Console.WriteLine(testValue.ContainsAny("123", "987", "554")); 
+            Console.WriteLine(testValue.ContainsAny("023", "987", "554")); 
 
             //but so will this also print true
             Console.WriteLine(testValue.ContainsAny("1", "987", "554"));
-            Console.ReadKey();
+           
 
         }
     }
@@ -36,5 +33,5 @@ namespace ContainsAnyThingy
 
             return false;
         }
-    }
+    
 }
